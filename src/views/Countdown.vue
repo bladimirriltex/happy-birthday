@@ -69,7 +69,7 @@ interval = setInterval(() => {
     }else{
         isHappyBirthday.value = true;
         localStorage.setItem("isHappyBirthday", isHappyBirthday.value)
-        router.push('/happy-birthday')
+        router.push('/happy-birthday-jarlin')
         clearInterval(interval);
     }
 

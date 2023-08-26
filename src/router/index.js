@@ -9,8 +9,8 @@ const router = createRouter({
       component: ()=> import('../views/Countdown.vue')
     },
     {
-      path: '/happy-birthday',
-      name: 'happy-birthday',
+      path: '/happy-birthday-jarlin',
+      name: 'happy-birthday-jarlin',
       component: ()=> import('../views/HappyBirthday.vue')
     },
     {
